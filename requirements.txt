@@ -1,0 +1,16 @@
+# Зависимости чат-бота. Версии зафиксированы по рабочему окружению
+# (Python 3.14, Windows), на котором пройдены все 140 тестов.
+
+# Обработка текста, уровень 1
+pymorphy3==2.0.6
+pymorphy3-dicts-ru==2.4.417150.4580142
+nltk==3.9.4
+
+# Уровни 2 и 3
+spacy==3.8.13
+ru_core_news_lg @ https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.8.0/ru_core_news_lg-3.8.0-py3-none-any.whl
+scikit-learn==1.9.0
+numpy==2.4.6
+
+# Тесты
+pytest==9.1.1
