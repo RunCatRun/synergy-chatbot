@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "source_order": "Приказ № 173/2000113-5 от 01.03.2025",
+    "level": "общее образование",
+    "applies_to": "зачисленных в 2025/2026 учебном году",
+    "academic_year": "2025/2026",
+    "currency": "RUB",
+    "period": "год"
+  },
+  "items": [
+    {
+      "direction": "Основное общее образование",
+      "program": "Школа 5 класс",
+      "form": "заочная",
+      "price_year": 295100,
+      "price_total": null
+    },
+    {
+      "direction": "Основное общее образование",
+      "program": "Школа 6 класс",
+      "form": "заочная",
+      "price_year": 295100,
+      "price_total": null
+    },
+    {
+      "direction": "Основное общее образование",
+      "program": "Школа 7 класс",
+      "form": "заочная",
+      "price_year": 295100,
+      "price_total": null
+    },
+    {
+      "direction": "Основное общее образование",
+      "program": "Школа 8 класс",
+      "form": "заочная",
+      "price_year": 295100,
+      "price_total": null
+    },
+    {
+      "direction": "Основное общее образование",
+      "program": "Школа 9 класс",
+      "form": "заочная",
+      "price_year": 327800,
+      "price_total": null
+    },
+    {
+      "direction": "Среднее общее образование",
+      "program": "Школа 10 класс",
+      "form": "заочная",
+      "price_year": 327800,
+      "price_total": null
+    },
+    {
+      "direction": "Среднее общее образование",
+      "program": "Школа 11 класс",
+      "form": "заочная",
+      "price_year": 327800,
+      "price_total": null
+    }
+  ]
+}

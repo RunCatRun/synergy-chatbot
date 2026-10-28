@@ -12,5 +12,8 @@ ru_core_news_lg @ https://github.com/explosion/spacy-models/releases/download/ru
 scikit-learn==1.9.0
 numpy==2.4.6
 
+# Бот в Telegram (с поддержкой прокси SOCKS5: добавляет aiohttp-socks)
+aiogram[proxy]==3.31.0
+
 # Тесты
 pytest==9.1.1

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "source_order": "Приказ № 173/2001104 от 01.08.2025",
+    "level": "ординатура",
+    "applies_to": "зачисленных на первый курс в 2025/2026 учебном году",
+    "academic_year": "2025/2026",
+    "currency": "RUB",
+    "period": "год"
+  },
+  "items": [
+    {
+      "direction": "Кардиология",
+      "program": null,
+      "form": "очная",
+      "price_year": 300000,
+      "price_total": 600000
+    },
+    {
+      "direction": "Лечебная физкультура и спортивная медицина",
+      "program": null,
+      "form": "очная",
+      "price_year": 300000,
+      "price_total": 600000
+    },
+    {
+      "direction": "Неврология",
+      "program": null,
+      "form": "очная",
+      "price_year": 300000,
+      "price_total": 600000
+    },
+    {
+      "direction": "Травматология и ортопедия",
+      "program": null,
+      "form": "очная",
+      "price_year": 300000,
+      "price_total": 600000
+    }
+  ]
+}
