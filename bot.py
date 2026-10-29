@@ -125,6 +125,9 @@ def main():
 
         lemmas = preprocess(user_input)
         code, answer, score = matcher.match(lemmas, user_input)
+        if LEVEL >= 2:
+            from chatbot.prices import refine
+            answer = refine(code, answer, user_input)
         print(f"Бот: {answer}")
 
 

@@ -34,6 +34,7 @@ from aiogram.types import Message
 
 import bot as console
 from chatbot.knowledge import load_knowledge
+from chatbot.prices import refine
 
 PREPROCESS, MATCHER = console.build(
     console.TONE, console.LEVEL, console.SEMANTIC_METHOD
@@ -55,10 +56,10 @@ def reply(chat_id, text):
     with _LOCK:
         if hasattr(_STATE, "last_intent"):
             _STATE.last_intent = _MEMORY.get(chat_id)
-        _code, answer, _score = MATCHER.match(PREPROCESS(text), text)
+        code, answer, _score = MATCHER.match(PREPROCESS(text), text)
         if hasattr(_STATE, "last_intent"):
             _MEMORY[chat_id] = _STATE.last_intent
-    return answer
+    return refine(code, answer, text)
 
 
 dp = Dispatcher()
